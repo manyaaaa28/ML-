@@ -1,0 +1,14 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Large raw/generated data - not meant for git
+student_resource/dataset/
+student_resource/output/
+student_resource/output_small/
+student_resource/code/business_entity_resolution/cache/
+
+# Zip extraction artifacts
+__MACOSX/
+.DS_Store
